@@ -1,0 +1,11 @@
+{
+  "name" : "Baeldung",
+  "area" : "tech blogs",
+  "author" : "Eugen",
+  "id" : 10,
+  "topics" : [ "Java", "Kotlin", "cs", "Linux" ],
+  "address" : {
+    "city" : "california",
+    "country" : "USA"
+  }
+}

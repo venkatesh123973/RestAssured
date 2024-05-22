@@ -1,0 +1,61 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1705300596.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "firstname",
+    "lastname",
+    "email",
+    "skills"
+  ],
+  "properties": {
+    "firstname": {
+      "$id": "#root/firstname",
+      "title": "Firstname",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "venk"
+      ],
+      "pattern": "^.*$"
+    },
+    "lastname": {
+      "$id": "#root/lastname",
+      "title": "Lastname",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "esh"
+      ],
+      "pattern": "^.*$"
+    },
+    "email": {
+      "$id": "#root/email",
+      "title": "Email",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "gh@gmail.com"
+      ],
+      "pattern": "^.*$"
+    },
+    "skills": {
+      "$id": "#root/skills",
+      "title": "Skills",
+      "type": "array",
+      "default": [],
+      "items":{
+        "$id": "#root/skills/items",
+        "title": "Items",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "java"
+        ],
+        "pattern": "^.*$"
+      }
+    }
+  }
+}
